@@ -40,3 +40,7 @@ header {
   border: 1px solid black;
   cursor: pointer;
 }
+
+.bg-lightblue {
+  background-color: lightblue;
+}
