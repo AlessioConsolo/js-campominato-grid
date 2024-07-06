@@ -8,3 +8,12 @@ function createSquare() {
 
   return currentElement;
 }
+
+button.addEventListener("click", function () {
+  for (let i = 0; i < 100; i++) {
+    let currentSquare = createSquare();
+
+    currentSquare.innerText = i + 1;
+    grid.append(currentSquare);
+  }
+});
