@@ -19,3 +19,12 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
+
+#button {
+  background-color: darkred;
+  color: gold;
+  border-radius: 10px;
+  padding: 17px;
+  height: fit-content;
+  margin-left: 10px;
+}
