@@ -13,6 +13,11 @@ button.addEventListener("click", function () {
   for (let i = 0; i < 100; i++) {
     let currentSquare = createSquare();
 
+    currentSquare.addEventListener("click", function () {
+      this.classList.toggle("bg-lightblue");
+      console.log(i + 1);
+    });
+
     currentSquare.innerText = i + 1;
     grid.append(currentSquare);
   }
